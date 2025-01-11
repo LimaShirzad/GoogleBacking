@@ -1,0 +1,626 @@
+
+.google_home
+{
+  
+    /* overflow: hidden; */
+    height: 100vh;
+    position: relative;
+    transition: .5s;
+
+}
+.google_home .heade{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.google_home .heade a
+{
+ 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 12px;
+}
+.google_home .heade  .img
+{
+    width: 50px;
+    height: 40px;
+    /* border-radius: 20px; */
+    margin: 12px;
+    background: lightblue;
+    border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.google_home .heade  .img img{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 7px;
+    padding: 2px;
+  
+}
+
+body{
+    /* overflow: hidden; */
+    
+}
+.google_home h1{
+    
+
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    animation: text_animation infinite 2s ;
+   
+
+}
+
+
+
+.google_home h1 span:nth-child(1)
+{
+    color:blue;
+    text-transform: capitalize;
+   
+}
+
+
+
+
+
+
+.google_home h1 span:nth-child(2)
+{
+    color:red;
+
+    
+}
+
+
+.google_home h1 span:nth-child(3)
+{
+    color:yellow;
+   
+}
+.google_home h1 span:nth-child(4)
+{
+    color:blue;
+   
+}
+.google_home h1 span:nth-child(5)
+{
+    color:green;
+   
+}
+.google_home h1 span:nth-child(6)
+{
+    color: red;
+   
+   transform: rotate(340deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.google_home form .form-group 
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+    background:white;
+    border-radius: 30px;
+    position: relative;
+    align-items: center;
+    /* overflow: hidden;  */
+    text-transform: capitalize;
+  
+  
+   
+}
+.google_home form .form-group i{
+    font-size: 20px;
+    color:rgb(177, 166, 166);
+    position: relative;
+    padding: 12px;
+    margin-left: 12px;
+    
+    
+}
+.google_home form .form-group input{
+    border: none;
+    box-shadow: none;
+    border-radius: 30px;
+    /* padding: 0; */
+  
+
+}
+.google_home form .form-group .img{
+  display: flex;
+  align-items: center;
+  /* background: #000; */
+  justify-content: center;
+  overflow: hidden;
+ 
+
+    
+}
+.google_home form .form-group .img img:nth-child(1){
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+.google_home form .form-group .img img:nth-child(2){
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+/* .serach-box  staart */
+
+.google_home form .form-group .serach-box {
+      background: white;
+      width: 100%;
+      /* height: 200px; */
+       border-radius: 10px;
+       display: none;
+
+    
+
+      
+    
+      
+      
+}
+.google_home form .form-group .serach-box  .serach-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    
+     
+    
+}
+.google_home form .form-group .serach-box  .serach-item a{
+    text-decoration: none;
+
+}
+
+
+
+
+
+.change-them{
+    float: right;
+    /* width: 13%; */
+    display: flex;
+    align-items: center;
+    background: rgb(160, 217, 236);
+    border-radius: 50px;
+     cursor: pointer;
+     margin-right: 10px;
+     flex-direction: row;
+     position: relative;
+     padding: 10px;
+     justify-content: space-between;
+     font-weight: bold;
+     bottom: 60px;
+     font-size: 13px;
+     height: 45px;
+     text-transform: capitalize;
+     cursor: pointer;
+}
+.change-them i
+{
+    
+      margin: 12px
+}
+.change-them span{
+    margin: 12px;
+}
+/* serach box end */
+/* colorbox start */
+.colorbox
+{
+   height:240px;
+   width: 300px;
+   background: white;
+   float: right;
+
+  /* margin: 12px; */
+   position: fixed;
+   z-index: 1;
+   transition: .5s;
+   top: 50%;
+   right: 0;
+   right:-100%;
+   text-transform: capitalize;
+   color:blue;
+  
+   
+}
+.colorbox i{
+    font-size: 20px;
+    float: right;
+    margin: 16px;
+    color: black;
+    font-weight: bold;
+    display:block;
+    cursor: pointer;
+  
+}
+.colorbox .button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    width: 100%;
+     border-radius: 20px;
+     height: 50px;
+     /* margin: auto; */
+    
+    
+
+}
+.colorbox .button .btn-class{
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 50px;
+    height: 39px;
+ 
+    
+}
+
+.colorbox .button .btn-class i{
+    font-size: 16px;
+    color: black;
+
+}
+.colorbox .button button{
+    /* border-radius: 30px; */
+    color: black;
+    border: none;
+    text-transform: capitalize;   
+    box-shadow: none;
+   font-size: 16px;
+  
+}
+.colorbox .color{
+    display: flex;
+    align-items: center;
+
+}
+.colorbox .color div{
+
+   width: 50px;
+   height: 50px;
+   background: #000;
+   margin: 12px;
+   border-radius: 50%;
+   cursor: pointer;
+
+
+}
+
+
+/* colorbox end */
+/* creat_acount dsirn start */
+.creat_acount{
+    margin-top: 100px;
+    position: relative;
+    /* overflow: hidden; */
+  
+ 
+    
+}
+
+.creat_acount h4{
+    color:darkblue;
+}
+.creat_acount  form 
+{
+   transition: .4s;   
+   position: relative; 
+   background: white;
+ 
+}
+.creat_acount  #acount_form{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transition: .5s;
+ }
+
+.creat_acount  #login_form{
+    display: none;
+    position: absolute;
+    left:0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transition: .5s;  
+}
+
+.creat_acount  form .form-group
+{
+   display: flex;
+   align-items: center;
+   background: rgb(241, 236, 236);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.creat_acount  form .form-group i{
+    font-size: 25px;
+    padding: 10px;
+    color: grey;
+
+}
+.creat_acount form .form-group input
+{
+    background: rgb(241, 236, 236);
+    border: none;
+  box-shadow: none;
+}
+.creat_acount form  p{
+    color: red;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+.creat_acount form button
+{
+    box-shadow: none;
+    background: darkblue;
+
+    color: white;
+    border: none;
+    margin: 12px;
+
+}
+.creat_acount form button:hover{
+    color: white;
+}
+.creat_acount  form span {
+    font-size: 16px;
+    color: darkblue;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 1px solid darkblue;
+}
+.creat_acount a{
+    text-decoration: none;
+}
+/* creat_acount deisgn end */
+/* your info start */
+.info .col nav
+{
+    display: flex;
+    align-items: center;
+    float: right;
+    font-size: 16px;
+ 
+}
+.info .col{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info .col h3{
+    text-transform: capitalize;
+    color:darkblue;
+    font-weight: bold;
+}
+
+
+
+
+.info .col nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: darkblue;
+    font-weight: bold;
+    margin: 15px;
+}
+.info .col .img{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border: 1px solid rgb(119, 0, 255);
+   background: #000;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.info .col .img img{
+    object-fit:cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.yourinfo form .lin{
+    width: 50%;
+    /* height: ; */
+    background: darkblue;
+    padding: 1px;
+    /* position: relative; */
+    margin: auto;
+}
+.yourinfo form h3{
+    color: darkblue;
+    text-transform: capitalize;
+}
+.yourinfo .form-group label
+{
+
+   font-size: 18px;
+   text-transform: capitalize;
+   color: darkblue;
+   font-weight: bold;
+ 
+  
+
+}
+.yourinfo p{
+    color: green;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.yourinfo .form-group button{
+    box-shadow: none;
+    background: darkblue;
+    color: white;
+    border: none;
+
+}
+.yourinfo .form-group input,
+.yourinfo .form-group textarea{
+    box-shadow: none;
+    border: 1px solid darkblue;
+    background: rgb(242, 244, 245);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .yourinfo label{
+    transform: translateY(-30px);
+} */
+.show {
+
+     border: 1px solid white;
+     text-transform: capitalize;
+      height: 450px;
+}
+.show h1{
+    color:darkblue;
+    border-bottom: 1px solid darkblue;
+    padding:12px;
+
+}
+.show p{
+  color: black;
+   text-align: justify;
+}
+.profile .card{
+       position: relative;
+       border: none;
+       
+}
+.profile .card::before{
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 30%;
+     background:darkblue;
+      z-index: 1;
+    top: 0;
+    left: 0;
+}
+.card-img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%; 
+    padding:5px ;
+    margin: auto;
+    /* background:darkblue; */
+     z-index: 1;
+     margin-top: 25px;
+     position: relative;
+     left: 40%;
+     
+
+}
+.profile  .card a{
+    text-decoration: none;
+    float: right;
+}
+.profile  .card  img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* object-fit:cover; */
+     /* margin: auto; */
+   
+}
+.profile .card span{
+    color: darkblue;
+    font-size: 19px;
+
+
+}
+.profile .card .text{
+    margin: 3px 12px;
+}
+.profile .card .card-body{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* your info end */
+@media screen and (max-width:667px){
+    .change-them span{
+        display: none;
+    }
+    .change-them {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+    }
+    
+}
